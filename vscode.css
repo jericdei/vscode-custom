@@ -1,12 +1,12 @@
 /* parameter-hints-widget */
 
-.editor-widget.parameter-hints-widget.visible {
+/* .editor-widget.parameter-hints-widget.visible {
   min-height: 800px !important;
-}
+} */
 
-.monaco-editor .parameter-hints-widget > .wrapper {
+/* .monaco-editor .parameter-hints-widget > .wrapper {
   min-width: 1024px !important;
-}
+} */
 
 /* editor-hover */
 
@@ -16,20 +16,21 @@
 }
 
 .explorer-item-edited {
-  font-family: "Geist Mono" !important;
+  font-family: "DankMono Nerd Font Mono" !important;
 }
 
 /* Code comment style */
 .mtk3 {
-  font-family: "Monaspace Radon Var", monospace !important;
+  font-family: "DankMono Nerd Font Mono", monospace !important;
   color: #008c7d !important;
+  font-style: italic !important;
 }
 
 .line-numbers {
   position: relative !important;
   width: 16px !important;
   font-size: 16px !important;
-  font-family: "Geist Mono" !important;
+  font-family: "DankMono Nerd Font Mono" !important;
   opacity: 0.3;
 }
 
@@ -40,12 +41,7 @@
 }
 
 /* Toolbars when tabs are enabled. */
-.monaco-workbench
-  .part.editor
-  > .content
-  .editor-group-container
-  > .title
-  .editor-actions {
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
   display: none !important;
 }
 
@@ -76,14 +72,14 @@
 /* File Explorer Item Label */
 .monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row .monaco-icon-label .label-name {
-  font-family: "Geist Mono", monospace !important;
+  font-family: "DankMono Nerd Font Mono", monospace !important;
   font-size: 14px !important;
   font-weight: 400 !important;
   color: #fff !important;
 }
 
 /* Sidebar top shadow */
-.monaco-scrollable-element > .shadow.top {
+.monaco-scrollable-element>.shadow.top {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75) !important;
   top: -3px !important;
 }
@@ -136,13 +132,7 @@
 }
 
 /* Project title's style at the top. */
-.monaco-workbench
-  .part.titlebar
-  > .titlebar-container
-  > .titlebar-center
-  > .window-title
-  > .command-center
-  .action-item.command-center-center {
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
   border: none !important;
   background: transparent !important;
 }
@@ -156,7 +146,7 @@
 
 /* Search Label */
 .search-label {
-  font-family: "Geist Mono" !important;
+  font-family: "DankMono Nerd Font Mono" !important;
   font-size: 14px !important;
   color: #fff;
   display: block;
@@ -176,7 +166,7 @@
   display: none !important;
 }
 
-.titlebar-right > * {
+.titlebar-right>* {
   display: none !important;
 }
 
@@ -223,7 +213,7 @@
   padding: 8px !important;
   border: none !important;
   background-color: rgba(34, 34, 34, 0.4) !important;
-  font-family: "Geist Mono" !important;
+  font-family: "DankMono Nerd Font Mono" !important;
   font-size: 14px !important;
   margin-bottom: 16px !important;
 }
